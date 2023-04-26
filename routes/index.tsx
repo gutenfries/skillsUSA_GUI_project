@@ -40,6 +40,13 @@ function IndexPage(PageProps: PageProps) {
 				id='main-content'
 				className='p-12 bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-200 text-center flex flex-col justify-center h-screen overflow-x-hidden'
 			>
+				<button
+					onClick={() => {
+					}}
+					className='w-auto bg-gray-300 dark:bg-gray-700 rounded-md m-2 h-8 p-1'
+				>
+					add scorecard
+				</button>
 				<ScoreCard />
 			</main>
 		</>

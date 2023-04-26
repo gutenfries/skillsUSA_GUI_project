@@ -46,7 +46,7 @@ function ScoreCard() {
 					id='grade-input'
 					className='w-auto bg-gray-100 dark:bg-gray-900 border-1 border-gray-800 dark:border-gray-200 rounded-md m-2 h-8 p-1'
 					type='text'
-					value={score['math']}
+					value={score['history']}
 					name='history'
 					required
 				/>
@@ -54,7 +54,7 @@ function ScoreCard() {
 					id='grade-input'
 					className='w-auto bg-gray-100 dark:bg-gray-900 border-1 border-gray-800 dark:border-gray-200 rounded-md m-2 h-8 p-1'
 					type='text'
-					value={score['math']}
+					value={score['english']}
 					name='english'
 					required
 				/>
@@ -62,7 +62,7 @@ function ScoreCard() {
 					id='grade-input'
 					className='w-auto bg-gray-100 dark:bg-gray-900 border-1 border-gray-800 dark:border-gray-200 rounded-md m-2 h-8 p-1'
 					type='text'
-					value={score['math']}
+					value={score['science']}
 					name='science'
 					required
 				/>
@@ -70,7 +70,7 @@ function ScoreCard() {
 					id='grade-input'
 					className='w-auto bg-gray-100 dark:bg-gray-900 border-1 border-gray-800 dark:border-gray-200 rounded-md m-2 h-8 p-1'
 					type='text'
-					value={score['math']}
+					value={score['art']}
 					name='art'
 					required
 				/>
